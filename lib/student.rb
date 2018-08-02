@@ -8,6 +8,8 @@ class Student < User
     @knowledge = []
   end
   
+  def learn
+    
   def knowledge
     student.knowledge
   end
